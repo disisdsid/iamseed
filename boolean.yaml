@@ -13,7 +13,7 @@
      when: my_service
 
 - name: conditional playbook...
-  hosts: 192.168.1.23
+  hosts: all
   remote_user: ansible
   become: yes
   vars:
